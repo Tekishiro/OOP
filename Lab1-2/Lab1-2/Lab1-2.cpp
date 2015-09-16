@@ -2,27 +2,23 @@
 //
 
 #include "stdafx.h"
-#include "Student.h"
+#include "House.h"
 #include <iostream>
 using namespace std;
 
 
 int main()
 {
-	Student a1, a2;
-	a1.setName("Oleg");
-	a1.setAge(17);
-	a2.setName("Ann");
-	a2.setAge(18);
-
-	char* q = a1.getName();
-	int w = a1.getAge();
-	a1.print();
-	a2.print();
-
-
-
-
+	system("chcp 1251");
+	House x[20];
+	int n;
+	cout << "" << endl;
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		x[i].setInf();
+	}
+	system("cls");
 
     return 0;
 }
