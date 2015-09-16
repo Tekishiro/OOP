@@ -9,6 +9,7 @@ using namespace std;
 
 House::House()
 {
+	cout << "Created!" << endl;
 }
 
 void House::setInf()
@@ -47,5 +48,21 @@ void House::print()
 }
 
 House::~House(void)
-{}
+{
+	cout << "Destructed!" << endl;
+}
 
+void House::printRooms(int n)
+{
+	if (rooms = n) print();
+}
+
+void House::printRandF(int n, int a, int b)
+{
+	if (rooms = n && floor >= a && floor <= b) print();
+}
+
+void House::printSquare(int s)
+{
+	if (square > s) print();
+}

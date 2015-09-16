@@ -24,9 +24,9 @@ public:
 	void setInf();
 
 	void print();
-	void printRooms();
-	void printRandF();
-	void printSquare();
+	void printRooms(int n);
+	void printRandF(int n, int a, int b);
+	void printSquare(int s);
 
 	~House(void);
 };
